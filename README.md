@@ -1,6 +1,25 @@
-# todo_django_rest_framework_with_react
+# ToDo
+`https://github.com/rkshaon/react_django_todo`
 
-It's a todo app
+## Requirements
+1. You need to install Python (`https://www.python.org/downloads/`)
+3. You need to install node (`https://nodejs.org/en/download/`)
+4. You need to install npm (`https://www.npmjs.com/get-npm`)
+5. You need to install npx (`https://www.npmjs.com/package/npx`)
 
-Backend is developed in Django using Rest Framework
-Frontend is developed in ReactJS
+## How to run?
+Open CLI and type mkdir project and hit enter\
+$ cd project\
+$ git clone `https://github.com/rkshaon/react_django_todo.git`\
+$ pip install -r requirements.txt\
+$ cd react_tours\
+$ npm run build\
+$ cd ..\
+$ python manage.py runserver\
+then open the browser and hit `http://127.0.0.1:8000/`
+
+### Front End
+ReactJS
+
+### Back End
+Django Rest Framework
